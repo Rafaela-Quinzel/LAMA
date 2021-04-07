@@ -52,7 +52,7 @@ Para criar estas tabelas no seu banco de dados basta rodar o comando `npm run sc
 
 - Para criar um novo usuário
 - O usuário pode ser cadastrado como "NORMAL" ou "ADMIN"
-
+- Exemplo:
 ```
    http://localhost:3003/user/signup
 ```
@@ -72,7 +72,7 @@ Body:
 **POST** Login
 
 - Fazer Login
-
+- Exemplo:
 ```
    http://localhost:3003/user/login
 ```
@@ -95,7 +95,7 @@ Body:
 **PUT** Create Show
 
 - Para adicionar um novo show
-
+- Exemplo:
 ```
    http://localhost:3003/shows/create
 ```
@@ -141,7 +141,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZiNTEzMTIxLTE0MTEt
 **POST** Create Band
 
 - Para cadastrar uma nova banda
-
+- Exemplo:
 ```
    http://localhost:3003/bands/create
 ```
